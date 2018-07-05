@@ -11,6 +11,7 @@ h1, h2 {
 
 h2 {
     font-size: 30px;
+    clear: both;
 }
 
 aside h1 {
@@ -25,6 +26,7 @@ main h1 {
     padding: 25px;
     border-bottom: 10px solid #000;
     font-size: 60px;
+    text-transform: uppercase;
 }
 
 p {
@@ -41,25 +43,26 @@ blockquote {
     margin: 20px 40px;
 }
 
-aside {
-    background-color: #3C1D3D;
-    color: #F2FFFC;
-    padding: 20px;
-    text-align: center;
+.citacao-fiat {
+    float: right;
 }
 
-footer {
-    background-color: #000;
-    color: #F2FFFC;
-    padding: 20px;
+.citacao-petrobras {
+    float: left;
+}
+
+cite {
+    font-style: italic;
+    float: right;
 }
 
 aside a {
     color: inherit;
     font-family: "Opens Sans Condensed", sans-serif;
 }
+
 main a {
- color: #851944;
+    color: #851944;
 }
 
 main div {
@@ -74,4 +77,87 @@ strong {
 
 em {
     font-style: italic;
+}
+
+.icones-sociais li {
+    display: inline-block;
+}
+
+.posts-pagina {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+}
+
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
+}
+
+.navegacao-pagina a {
+    text-transform: lowercase;
+}
+
+.icones-sociais a {
+    display: block;
+    text-indent: -9999px;
+    width: 40px;
+    height: 40px;
+}
+
+.github {
+    background-image: url("github.png");
+}
+
+.linkedin {
+    background-image: url("linkedin.png");
+}
+
+.twitter {
+    background-image: url("twitter.png");
+}
+
+main {
+    width: 85%;
+    float: left;
+    padding-bottom: 80px;
+}
+
+.navegacao-pagina {
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
+    list-style: none;
+    width: 15%;
+    float: right;
+    position: relative;
+    top: 310px;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.minha-foto, .navegacao-pagina {
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+#rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 20px;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
