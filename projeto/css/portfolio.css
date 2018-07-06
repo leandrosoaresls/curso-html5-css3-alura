@@ -1,0 +1,22 @@
+.portfolio-projetos {
+    border: 8px solid #000;
+    background-color: #FAFFFC;
+    margin: 8px;
+    padding: 8px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 310px;
+}
+
+div {
+    width: 90%;
+    margin: auto;
+}
+
+img {
+    width: 280px;
+}
+
+p {
+    margin: 8px;
+}
